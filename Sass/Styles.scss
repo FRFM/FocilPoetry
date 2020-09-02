@@ -1,0 +1,102 @@
+
+//Variables
+$ColorWhite:#FFFF;
+
+
+
+
+*{
+	font-family:'Krona One' ,cursive;
+}
+
+#Main-Carrousel{
+    width:100%;
+    
+    img{
+        width:100%;
+        height: 30rem;
+        
+    }
+    a{
+        background: black;
+        opacity: 0.1;
+    }
+}
+
+.navbar{
+    z-index: 1000;
+
+    .navbar-brand {
+        color: $ColorWhite;
+        font-size:2.4rem;
+    }
+
+    .navbar-nav .nav-link {
+        color:$ColorWhite;
+        margin-left:4rem;
+        font-size:1.5rem;
+    }
+}
+
+.container-fluid{
+	margin-top:5.1rem;
+	padding-top:4rem;
+	padding-bottom:4rem;
+	background:#DAC9C1;
+}
+
+.PageFooter{
+	position: relative;
+	margin-top:-1rem;
+	margin-bottom:0;
+	border-radius:0;
+	color:white;
+	font-size:1.5rem;
+    padding:4rem;
+    width: 100%;
+    
+    .blockquote-footer{
+        color:white ;
+        
+    }
+
+    .Version{
+        position:absolute;
+        bottom:1rem;
+        right:1rem;
+        font-size:0.3rem;
+    }
+    .FechaVersion{
+        position:absolute;
+        bottom:0rem;
+        right:1rem;
+        font-size:0.2rem;
+    }
+}
+
+
+@media(max-width:420px){
+	.container-fluid{
+		margin-top:5.2rem;
+    
+    }
+
+    #Main-Carrousel{
+        
+        img{
+            width: 20rem;
+            height: auto;
+        }
+    }
+}
+
+@media(max-width:767px){
+    #Main-Carrousel{
+        
+        img{
+            height: auto;
+        }
+    }
+}
+
+
