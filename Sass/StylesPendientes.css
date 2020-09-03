@@ -1,0 +1,29 @@
+body {
+  background: #F3EABF;
+}
+
+.container-fluid h1 {
+  color: black;
+}
+
+.container-fluid h2 {
+  color: black;
+}
+
+.btn {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 420px) {
+  .container-fluid h1 {
+    color: black;
+  }
+  .container-fluid h2 {
+    color: black;
+  }
+  .container-fluid img {
+    height: 27rem;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=StylesPendientes.css.map */

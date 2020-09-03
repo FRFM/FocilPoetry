@@ -2,18 +2,31 @@
   font-family: 'Krona One' ,cursive;
 }
 
-#Main-Carrousel {
+#Main-Carousel {
   width: 100%;
 }
 
-#Main-Carrousel img {
+#Main-Carousel img {
   width: 100%;
   height: 30rem;
+  display: block;
 }
 
-#Main-Carrousel a {
+#Main-Carousel a {
   background: black;
-  opacity: 0.1;
+  opacity: 0.3;
+}
+
+#Main-Carousel .carousel-caption {
+  color: black;
+}
+
+#Main-Carousel .carousel-caption-ligth {
+  color: #FFFF;
+}
+
+#Main-Carousel .carousel-item a {
+  opacity: 1;
 }
 
 .navbar {
@@ -35,7 +48,7 @@
   margin-top: 5.1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background: #DAC9C1;
+  background: #F3EABF;
 }
 
 .PageFooter {
@@ -43,14 +56,14 @@
   margin-top: -1rem;
   margin-bottom: 0;
   border-radius: 0;
-  color: white;
+  color: #FFFF;
   font-size: 1.5rem;
   padding: 4rem;
   width: 100%;
 }
 
 .PageFooter .blockquote-footer {
-  color: white;
+  color: #FFFF;
 }
 
 .PageFooter .Version {
@@ -71,14 +84,14 @@
   .container-fluid {
     margin-top: 5.2rem;
   }
-  #Main-Carrousel img {
-    width: 20rem;
-    height: auto;
+  #Main-Carrousel .carousel-inner {
+    width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  #Main-Carrousel img {
+  #Main-Carrousel .carousel-inner {
+    width: 20rem;
     height: auto;
   }
 }

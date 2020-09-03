@@ -1,0 +1,40 @@
+$Color:black;
+
+body{
+    background:#F3EABF;
+    
+}
+
+.container-fluid{
+    h1{
+        color:$Color;
+    }
+
+    h2{
+        color:$Color;
+    }
+}
+
+
+.btn{
+    margin-bottom: 2rem;
+}
+
+@media(min-width:420px){
+	.container-fluid{
+        h1{
+            color:$Color;
+        }
+    
+        h2{
+            color:$Color;
+        }
+    
+        img{
+            height:27rem;
+            width: auto;
+        }
+    }
+}
+
+
