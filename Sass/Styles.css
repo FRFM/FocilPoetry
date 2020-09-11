@@ -2,8 +2,47 @@
   font-family: 'Krona One' ,cursive;
 }
 
+.SectionBackground {
+  z-index: 10;
+  padding: 1rem 2rem 1rem;
+}
+
+.Section {
+  z-index: 100;
+  -webkit-box-shadow: 10px 7px 20px #000000;
+          box-shadow: 10px 7px 20px #000000;
+}
+
+.Section .Section-Title {
+  font-size: calc(2rem + 1vw);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Section .Section-Content {
+  font-size: calc(1.7rem + 1vw);
+}
+
+.Section .Primary-Section {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background: #68B9F0;
+}
+
+.Section .Secondary-Section {
+  background: #E1E5E5;
+  padding-bottom: 2em;
+}
+
+.Section .Redirection {
+  padding: 1.5rem;
+  margin: 2rem 0 2rem 0;
+}
+
 #Main-Carousel {
   width: 100%;
+  -webkit-box-shadow: 5px 5px 10px #000000;
+          box-shadow: 5px 5px 10px #000000;
 }
 
 #Main-Carousel img {
@@ -13,12 +52,12 @@
 }
 
 #Main-Carousel a {
-  background: black;
-  opacity: 0.3;
+  background: #343a40;
+  opacity: 0.05;
 }
 
 #Main-Carousel .carousel-caption {
-  color: black;
+  color: #343a40;
 }
 
 #Main-Carousel .carousel-caption-ligth {
@@ -31,61 +70,64 @@
 
 .navbar {
   z-index: 1000;
+  -webkit-box-shadow: 5px 5px 10px #000000;
+          box-shadow: 5px 5px 10px #000000;
+  background: #AEDAF3;
 }
 
 .navbar .navbar-brand {
-  color: #FFFF;
+  color: #343a40;
   font-size: 2.4rem;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #FFFF;
+  color: #343a40;
   margin-left: 4rem;
   font-size: 1.5rem;
 }
 
-.container-fluid {
-  margin-top: 5.1rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background: #F3EABF;
+#Main-Container {
+  margin-top: 2em;
+  padding: 4rem 0;
+  background: #68B9F0;
 }
 
 .PageFooter {
-  position: relative;
-  margin-top: -1rem;
-  margin-bottom: 0;
-  border-radius: 0;
+  background: #343a40;
+  padding: 0.2rem 0 0.1rem 0;
+  bottom: 0;
   color: #FFFF;
-  font-size: 1.5rem;
-  padding: 4rem;
+  font-size: 1.3rem;
   width: 100%;
 }
 
-.PageFooter .blockquote-footer {
-  color: #FFFF;
+.PageFooter #Quote {
+  padding-top: 1rem;
 }
 
-.PageFooter .Version {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 0.3rem;
+.PageFooter #Author {
+  font-size: 1.2rem;
 }
 
-.PageFooter .FechaVersion {
-  position: absolute;
-  bottom: 0rem;
-  right: 1rem;
-  font-size: 0.2rem;
+.PageFooter #Copyright {
+  font-size: 0.7rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 420px) {
-  .container-fluid {
-    margin-top: 5.2rem;
-  }
+  margin-top: 6rem;
   #Main-Carrousel .carousel-inner {
     width: 100%;
+  }
+  .PageFooter {
+    padding: 0.5rem 0 0.1rem 0;
+    font-size: 0.8rem;
+  }
+  .PageFooter #Author {
+    font-size: 0.8rem;
+  }
+  .PageFooter #Copyright {
+    font-size: 0.4rem;
   }
 }
 
