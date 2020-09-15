@@ -2,9 +2,48 @@
   font-family: 'Krona One' ,cursive;
 }
 
-.SectionBackground {
-  z-index: 10;
-  padding: 1rem 2rem 1rem;
+.navbar {
+  z-index: 1000;
+  -webkit-box-shadow: 30px 9px 80px #000000;
+          box-shadow: 30px 9px 80px #000000;
+  background: #AEDAF3;
+  padding-bottom: 1.4rem;
+}
+
+.navbar .navbar-brand {
+  color: #343a40;
+  font-size: 2.4rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #343a40;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.PageFooter {
+  -webkit-box-shadow: 30px 9px 100px #000000;
+          box-shadow: 30px 9px 100px #000000;
+  background: #AEDAF3;
+  padding: 0.2rem 0 0.1rem 0;
+  margin-top: -4rem;
+  bottom: 0;
+  color: #343a40;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.PageFooter #Quote {
+  padding-top: 1rem;
+}
+
+.PageFooter #Author {
+  font-size: 1.2rem;
+}
+
+.PageFooter #Copyright {
+  font-size: 0.7rem;
+  margin-top: 1rem;
 }
 
 .Section {
@@ -24,14 +63,14 @@
 }
 
 .Section .Primary-Section {
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 4em;
   background: #68B9F0;
 }
 
 .Section .Secondary-Section {
   background: #E1E5E5;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .Section .Redirection {
@@ -39,86 +78,7 @@
   margin: 2rem 0 2rem 0;
 }
 
-#Main-Carousel {
-  width: 100%;
-  -webkit-box-shadow: 5px 5px 10px #000000;
-          box-shadow: 5px 5px 10px #000000;
-}
-
-#Main-Carousel img {
-  width: 100%;
-  height: 30rem;
-  display: block;
-}
-
-#Main-Carousel a {
-  background: #343a40;
-  opacity: 0.05;
-}
-
-#Main-Carousel .carousel-caption {
-  color: #343a40;
-}
-
-#Main-Carousel .carousel-caption-ligth {
-  color: #FFFF;
-}
-
-#Main-Carousel .carousel-item a {
-  opacity: 1;
-}
-
-.navbar {
-  z-index: 1000;
-  -webkit-box-shadow: 5px 5px 10px #000000;
-          box-shadow: 5px 5px 10px #000000;
-  background: #AEDAF3;
-}
-
-.navbar .navbar-brand {
-  color: #343a40;
-  font-size: 2.4rem;
-}
-
-.navbar .navbar-nav .nav-link {
-  color: #343a40;
-  margin-left: 4rem;
-  font-size: 1.5rem;
-}
-
-#Main-Container {
-  margin-top: 2em;
-  padding: 4rem 0;
-  background: #68B9F0;
-}
-
-.PageFooter {
-  background: #343a40;
-  padding: 0.2rem 0 0.1rem 0;
-  bottom: 0;
-  color: #FFFF;
-  font-size: 1.3rem;
-  width: 100%;
-}
-
-.PageFooter #Quote {
-  padding-top: 1rem;
-}
-
-.PageFooter #Author {
-  font-size: 1.2rem;
-}
-
-.PageFooter #Copyright {
-  font-size: 0.7rem;
-  margin-top: 1rem;
-}
-
 @media (max-width: 420px) {
-  margin-top: 6rem;
-  #Main-Carrousel .carousel-inner {
-    width: 100%;
-  }
   .PageFooter {
     padding: 0.5rem 0 0.1rem 0;
     font-size: 0.8rem;
@@ -131,10 +91,41 @@
   }
 }
 
-@media (max-width: 767px) {
-  #Main-Carrousel .carousel-inner {
-    width: 20rem;
-    height: auto;
+@media (max-width: 403px) {
+  .navbar {
+    z-index: 1000;
+    -webkit-box-shadow: 30px 9px 80px #000000;
+            box-shadow: 30px 9px 80px #000000;
+    background: #AEDAF3;
+    padding-bottom: 1.4rem;
+  }
+  .navbar .navbar-brand {
+    color: #343a40;
+    font-size: 2rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #343a40;
+    margin-left: 4rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 354px) {
+  .navbar {
+    z-index: 1000;
+    -webkit-box-shadow: 30px 9px 80px #000000;
+            box-shadow: 30px 9px 80px #000000;
+    background: #AEDAF3;
+    padding-bottom: 1.4rem;
+  }
+  .navbar .navbar-brand {
+    color: #343a40;
+    font-size: 1.8rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #343a40;
+    margin-left: 4rem;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=Styles.css.map */

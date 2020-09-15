@@ -15,6 +15,7 @@
 	<!--SASS/ Bootstrap 4-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="Sass/Styles.css">
+	<link rel="stylesheet" href="Sass/index.css">
 
 	<!--APIS-->
 	<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
@@ -36,78 +37,67 @@
 			  <a class="nav-link"  href="index.html" >Inicio</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link " href="Html/pendiente.html">Poesía</a>
+			  <a class="nav-link " href="Html/Poesia.html">Poesía</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="Html/pendiente.htm">Más</a>
+			  <a class="nav-link" href="Html/pendiente.html">Más</a>
 			</li>    
 		  </ul>
 		</div>  
 	  </nav>
-	  <!--NavBar-->
+	<!--NavBar-->
 
 	  <!--Content-->
 	
 			
-			<div class="container-fluid" id ="Main-Container">
+	<div class="container-fluid Main-Container" >
 
-
-				<div class="SectionBackground">
+			<!--Section-->
+		<div class="SectionBackground Primary-Background">
 				<div class="container-fluid">
-					
 					<div class="Section row flex flex-row">
-						
 						<div class="col text-center Primary-Section">
-								
 							<div class="Section-Title">Focil Poetry</div>
 							<div class="Section-Content">Un Lugar Donde La Poesía Que Forma Parte De Mi, Sea Parte De Ti</div>
-	
 						</div>
-						
-	
 					</div>
 				</div>
-			</div>
+		</div>
+			<!--Section-->
 
-			 <!--Carousel-->
-			 <div class="SectionBackground">
+		<!--Carousel-->
+		<div class="SectionBackground Secondary-Background">
 			<div id="Main-Carousel" class="carousel slide " data-ride="carousel">
-
 				<ul class="carousel-indicators">
 					<li data-target="#Main-Carousel" data-slide-to="0" class="active"></li>
 					<li data-target="#Main-Carousel" data-slide-to="1"></li>
 					<li data-target="#Main-Carousel" data-slide-to="2"></li>
 					<li data-target="#Main-Carousel" data-slide-to="3"></li>
-					
 				</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+						<a href="#Section-Poesía" >
+						<img src="Images/tea-time-3240766_1280.jpg" alt="Poesía" class="img-fluid">
+							<div class="carousel-caption">
+								<h1>Poesía</h2>
+								<p>Poesías Originales</p>
+							</div>
+						</a>
+				</div>
 
-				<div class="carousel-inner">
-
-					<div class="carousel-item active">
-						<a href="Html/pendiente.html" >
-					<img src="Images/tea-time-3240766_1280.jpg" alt="Poesía" class="img-fluid">
-						<div class="carousel-caption">
-							<h1>Poesía</h2>
-							<p>Poesías Originales</p>
-						</div>
-					</a>
-					</div>
-
-					<div  class="carousel-item ">
-						<a href="Html/pendiente.html" >
+					<div class="carousel-item ">
+							<a href="#Section-Declamacion" >
 							<img  src="Images/Declamacion.jpg " alt="Declamacion" class="img-fluid" >
-							
-						<div class="carousel-caption carousel-caption-ligth">
-							<h1>Audio</h2>
-							<p>Poesías Declamadas</p>
-						</div>
-					</a>
+								<div class="carousel-caption carousel-caption-ligth">
+									<h1>Audio</h2>
+									<p>Poesías Declamadas</p>
+								</div>
+							</a>
 					</div>
 
 					<div class="carousel-item">
-						<a href="Html/pendiente.html" >
-						<img src="Images/Notebook.jpg" alt="Autor" class="img-fluid">
-						
+					<a href="#Section-Autor" >
+					<img src="Images/Notebook.jpg" alt="Autor" class="img-fluid">
 						<div class="carousel-caption">
 							<h1>Autor</h2>
 							<p>Más Acerca Del Autor</p>
@@ -116,30 +106,29 @@
 					</div>
 
 					<div class="carousel-item">
-						<a href="Html/pendiente.html" >
-						<img src="Images/grandparents-1927320_1280.jpg" alt="Abuelo" class="img-fluid" id="Homenaje">
-						
+					<a href="#Section-Abuelo" >
+					<img src="Images/grandparents-1927320_1280.jpg" alt="Abuelo" class="img-fluid" id="Homenaje">
 						<div class="carousel-caption carousel-caption-ligth">
 							<h2>Homenaje</h2>
 							<p>Felipe Focil Rodriguez</p>
 						</div>
 					</a>
 					</div>
-
-				</div>
+			</div>
 
 				<a class="carousel-control-prev" href="#Main-Carousel" data-slide="prev">
 					<span class="carousel-control-prev-icon"></span>
 				  </a>
-				  <a class="carousel-control-next" href="#Main-Carousel" data-slide="next">
+				<a class="carousel-control-next" href="#Main-Carousel" data-slide="next">
 					<span class="carousel-control-next-icon"></span>
 				  </a>
-
-				 
 			</div>
+			<div id="Section-Poesía"></div>
 		</div>
-			<!--Carousel-->
-			<div class="SectionBackground">
+		<!--Carousel-->
+
+		<!--Section-->
+		<div class="SectionBackground Primary-Background">
 			<div class="container-fluid">
 				
 				
@@ -147,55 +136,79 @@
 					
 					<div class="col text-center Secondary-Section">
 							
-						<div class="Section-Title">Focil Poetry</div>
-						<div class="Section-Content">Un Lugar Donde La Poesía Que Forma Parte De Mi, Sea Parte De Ti</div>
-						<button type="button" class="btn btn-dark Redirection">Saber Más</button>
+						<div class="Section-Title">Poesía</div>
+						<div class="Section-Content">
+							Aquí Podras Encontrar Diversas Poesías Orginales Escritas En Varios Idiomas Desde El 2017
+						</div>
+						<a type="button" class="btn btn-dark Redirection" href="Html/Poesia.html">Saber Más</a>
 
 					</div>
 					
 
 				</div>
 			</div>
+			<div id="Section-Declamacion"></div>
 		</div>
+		<!--Section-->
 
-			<div class="SectionBackground">
+		<!--Section-->
+	
+		<div class="SectionBackground Secondary-Background">
 			<div class="container-fluid">
 				<div class="Section row flex flex-row">
 					<div class="col text-center Primary-Section">
 							
-						<div class="Section-Title">Focil Poetry</div>
-						<div class="Section-Content">Un Lugar Donde La Poesía Que Forma Parte De Mi, Sea Parte De Ti</div>
+						<div id="Declamacion" class="Section-Title">Declamación</div>
+						<div class="Section-Content">Aquí Podras Encontrar Diferentes Poesías Declamadas</div>
 						<button type="button" class="btn btn-dark Redirection">Saber Más</button>
-
 					</div>
 					
 
 				</div>
 			</div>
+			<div id="Section-Autor"></div>
 		</div>
+	
+		<!--Section-->
 
-			<div class="SectionBackground">
+		<!--Section-->
+		<div class="SectionBackground Primary-Background">
 			<div class="container-fluid">
 				<div class="Section row flex flex-row">
 					<div class="col text-center Secondary-Section">
-							
-						<div class="Section-Title">Focil Poetry</div>
-						<div class="Section-Content">Un Lugar Donde La Poesía Que Forma Parte De Mi, Sea Parte De Ti</div>
-						<button type="button" class="btn btn-dark Redirection">Saber Más</button>
+						<div class="Section-Title">Felipe Focil</div>
+						<div class="Section-Content">
+							Aquí Podras Encontrar Más Información Acerca Del Autor
+							</div>
+							<button type="button" class="btn btn-dark Redirection">Saber Más</button>
+					</div>
+				</div>
+			</div>
+			<div id="Section-Abuelo"></div>
+		</div>
+		<!--Section-->
 
+
+		<!--Section-->
+		<div class="SectionBackground Secondary-Background">
+			<div class="container-fluid">
+				<div class="Section row flex flex-row">
+					<div class="col text-center Primary-Section">
+							
+						<div class="Section-Title">Homenaje</div>
+						<div class="Section-Content">
+							Aquí Podras Encontrar Un Homenaje A Mi Abuelo, Felipe Focil Rodriguez, Declamador Profesional</div>
+						<button type="button" class="btn btn-dark Redirection">Saber Más</button>
 					</div>
 					
 
 				</div>
 			</div>
 		</div>
-			
+		<!--Section-->
 
-
-		</div>
-		
-		
-		<!--Content-->
+	</div>
+	<!--Content-->
 		
 		<!--Footer-->
 		<footer class="PageFooter text-center text-monospace">

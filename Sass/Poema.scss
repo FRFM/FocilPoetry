@@ -1,0 +1,48 @@
+$Shadow: 10px 7px 20px #000000;  ;
+
+.Titulo{
+    font-size: calc(2rem + 0.5vw);
+}
+
+.Estrofa{
+        
+    font-size: calc(0.7rem + 0.7vw);
+}
+
+
+@media (min-width:550px){
+    .Estrofa{
+        
+        font-size: calc(0.9rem + 0.7vw);
+        margin: 7vw 0;
+    }
+    
+    .Verso{
+        margin: 3vw 0;
+    }
+}
+
+
+@media (max-width:550px){
+    .Estrofa{
+        
+        margin: 13vw 0;
+    }
+    
+    .Verso{
+        margin: 4vw 0;
+    }
+}
+
+@media (max-width:400px){
+    .Estrofa{
+        
+        margin: 20vw 0;
+    }
+    
+    .Verso{
+        margin: 7vw 0;
+    }
+}
+
+

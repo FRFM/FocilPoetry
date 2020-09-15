@@ -1,0 +1,55 @@
+.Main-Container {
+  margin-top: 2em;
+  padding: 6rem 0;
+  background: #E1E5E5;
+}
+
+.row {
+  margin: 0;
+  -webkit-box-shadow: 10px 7px 20px #000000;
+          box-shadow: 10px 7px 20px #000000;
+}
+
+.Poetry-Card {
+  padding: 2.5vw;
+  background: #68B9F0;
+  margin: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  -webkit-box-shadow: 10px 7px 20px #000000;
+          box-shadow: 10px 7px 20px #000000;
+}
+
+h1 {
+  font-size: calc(1rem + 1vw);
+}
+
+.Small {
+  margin-top: 1rem;
+}
+
+.Large {
+  font-size: calc(0.7rem + 1vw);
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Poetry-Button {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2.5rem;
+  width: 3em;
+  -webkit-box-shadow: 10px 7px 20px #000000;
+          box-shadow: 10px 7px 20px #000000;
+  background: aliceblue;
+}
+
+pre {
+  font-size: calc(1rem + 1vw);
+}
+/*# sourceMappingURL=PoesiaStyles.css.map */
