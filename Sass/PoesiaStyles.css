@@ -4,6 +4,16 @@
   background: #E1E5E5;
 }
 
+.Main-Container-Declamacion {
+  background: #68B9F0;
+  margin-top: 2em;
+  padding: 6rem 0;
+}
+
+audio {
+  right: 0;
+}
+
 .row {
   margin: 0;
   -webkit-box-shadow: 10px 7px 20px #000000;
@@ -13,6 +23,17 @@
 .Poetry-Card {
   padding: 2.5vw;
   background: #68B9F0;
+  margin: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  -webkit-box-shadow: 10px 7px 20px #000000;
+          box-shadow: 10px 7px 20px #000000;
+}
+
+.Poetry-Card-Declamacion {
+  padding: 3vw;
+  background: #E1E5E5;
   margin: 2rem;
   -ms-flex-line-pack: center;
       align-content: center;

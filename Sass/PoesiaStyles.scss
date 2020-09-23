@@ -15,6 +15,19 @@ $Shadow: 10px 7px 20px #000000;  ;
     background: $BackgroundColor1;    
 }
 
+.Main-Container-Declamacion{
+    background: $BackgroundColor2;    
+    margin-top:2em;
+    padding:6rem 0;
+}
+
+audio{
+    
+    right:0;
+}
+
+
+
 
 .row{
     margin:0;
@@ -23,9 +36,20 @@ $Shadow: 10px 7px 20px #000000;  ;
 
 
 
+
+
 .Poetry-Card{
     padding:2.5vw;
     background:$BackgroundColor2;
+    margin:2rem;
+    align-content: center;
+    text-align: center;
+    box-shadow:$Shadow;  
+}
+
+.Poetry-Card-Declamacion{
+    padding:3vw;
+    background:$BackgroundColor1;
     margin:2rem;
     align-content: center;
     text-align: center;
