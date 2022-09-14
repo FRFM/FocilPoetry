@@ -1,0 +1,44 @@
+.DevSectionBackground {
+  z-index: 10;
+  padding: 2.5rem 4rem 3rem;
+}
+
+.DevSection {
+  z-index: 100;
+  -webkit-box-shadow: 14px 9px 20px #000000;
+          box-shadow: 14px 9px 20px #000000;
+  margin-bottom: 1em;
+}
+
+.DevSection .DevSection-Title {
+  font-size: calc(1.7rem + 0.5vw);
+  margin-top: 1em;
+}
+
+.DevSection .DevSection-Date {
+  font-size: calc(0.8rem + 0.5vw);
+  margin-bottom: 1.3em;
+}
+
+.DevSection .DevSection-SubTitle {
+  font-size: calc(1.1rem + 0.5vw);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.DevSection .DevSection-Content {
+  font-size: calc(0.7rem + 0.5vw);
+  padding-bottom: 0.4em;
+}
+
+.DevSection .Primary-Section {
+  padding-top: 1em;
+  padding-bottom: 4em;
+  background: #68B9F0;
+}
+
+.DevSection .Secondary-Section {
+  background: #E1E5E5;
+  padding-bottom: 4em;
+}
+/*# sourceMappingURL=Dev.css.map */

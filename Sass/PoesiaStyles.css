@@ -1,13 +1,12 @@
 .Main-Container {
   margin-top: 2em;
-  padding: 6rem 0;
-  background: #E1E5E5;
+  padding: 1rem 0rem 6em 0rem;
 }
 
 .Main-Container-Declamacion {
   background: #68B9F0;
-  margin-top: 2em;
-  padding: 6rem 0;
+  margin-top: 0.1em;
+  padding: 1rem 0rem 6em 0rem;
 }
 
 audio {

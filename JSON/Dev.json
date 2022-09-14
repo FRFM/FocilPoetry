@@ -1,0 +1,232 @@
+[
+    {
+        "Version": "1.1.0",
+        "Dia": "8",
+        "Mes": "Agosto",
+        "Anio": "2022",
+        "Contenido": [
+            {
+                "Titulo": "Se agregaron los siguientes poemas : ",
+                "Cambio": [
+                    "Vaivén Peligroso",
+                    "Noche confinada",
+                    "One Last Chance",
+                    "Cristales Borrosos",
+                    "Verdad Forzada",
+                    "Turing",
+                    "Modelo",
+                    "Mis Queridos Amigos",
+                    "Mañana",
+                    "Amigo",
+                    "Tan solo una amiga",
+                    "Poema para una amiga",
+                    "Te Quiero",
+                    "Ya no Recordaba",
+                    "Beldad de Espita",
+                    "Un Año",
+                    "Maldita Timidez",
+                    "Dios Mío",
+                    "Palabras",
+                    "No Pasa Nada",
+                    "Algo Más",
+                    "Retorno de Oscuridad",
+                    "Mi Estro Tímida",
+                    "Noche de Junio",
+                    "Playa Terminal",
+                    "Playa Genocida",
+                    "Playa Germánica",
+                    "Momentos de Arena",
+                    "Martirizado Ubicuo",
+                    "Carta De Vergüenza",
+                    "Resignación",
+                    "Zeta",
+                    "Deseo Para Algo Más",
+                    "Demonios En Mi Cabeza",
+                    "Te digo perdon",
+                    "Me He Curado"
+                ]
+            },
+            {
+                "Titulo": "Indice",
+                "Cambio": [
+                    "Se cambiaron fotos y direccionamiento del carrusel",
+                    "Se cambiaron las secciones del indice por 'Favoritos', 'Leélo del Revés' y 'Sorprendeme'",
+                    "Se añadió la sección Notas del Desarrollador"
+                ]
+            },
+            {
+                "Titulo": "Generales",
+                "Cambio": [
+                    "Se organizaron los archivos internos",
+                    "Se actualizaron los archivos Html por Php",
+                    "Se eliminaron imagenes que no se utilizan",
+                    "Se crearon plantillas en archivos Php",
+                    "Se actualizaron los archivos de poemas de Html a un archivo JSON",
+                    "Se cambió el diseño de la barra de scroll",
+                    "Se añadió un frase aleatoria en el pie de página",
+                    "Se añadió un contador de visitas por poema",
+                    "Se añadio un filtro para mostrar poemas favoritos y poemas que cambian su significado al leerlo del revés"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "1.0.1",
+        "Dia": "28",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Corrección de Errores",
+                "Cambio": [
+                    "Correción de redireccionamiento del bóton 'Más'",
+                    "Corrección del margen de los poemas"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "1.0.0",
+        "Dia": "23",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Se agregaron los siguientes poemas : ",
+                "Cambio": [
+                    "Si Tan Solo Tal Vez",
+                    "Just Going Backwards",
+                    "Hay Veces",
+                    "Punto y Final",
+                    "Anche Se Allora",
+                    "Lindo Gatito",
+                    "Pienso y Sueño",
+                    "Poesía del Numen",
+                    "Desesperación Paciente",
+                    "Qué Sabre Yo de Poesía",
+                    "Imposible Edén",
+                    "Cuenta Regresiva",
+                    "Solo Deseo",
+                    "Luna",
+                    "Feliz Día",
+                    "Tengo ese Sueño",
+                    "Ya No Hay Salida",
+                    "Poema a la Musa Desconocida",
+                    "Yo Te Espero",
+                    "Confinamiento del Numen",
+                    "Beldad Diáfana"
+                ]
+            },
+            {
+                "Titulo": "Sección de Declamación",
+                "Cambio": [
+                    "Se agregó las plantillas para las declamaciones",
+                    "Se agregaron modals de información de la declamación"
+                ]
+            },
+            {
+                "Titulo": "Se agregaron las siguientes declamaciones",
+                "Cambio": [
+                    "Poema del Renunciamiento",
+                    "Canción del Amor Lejano",
+                    "Poema XX",
+                    "Se Deja De Querer",
+                    "Instantes",
+                    "La Marioneta de Trapo",
+                    "Matricida",
+                    "Cuando estuve en el mar, era marino",
+                    "Los tres ladrones",
+                    "La vida es sueño"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "0.1.3",
+        "Dia": "15",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Diseño",
+                "Cambio": [
+                    "Se cambio el color de fondo de cada sección",
+                    "Se cambio el color del fondo del pie de página"
+                ]
+            },
+            {
+                "Titulo": "Sección de Poesía",
+                "Cambio": [
+                    "Se agregó las plantillas para los poemas",
+                    "Se agregaron modals de información del poema"
+                ]
+            },
+            {
+                "Titulo": "Se agregaron los siguientes poemas : ",
+                "Cambio": [
+                    "Incoación"
+                ]
+            },
+            {
+                "Titulo": "Diseño Responsivo",
+                "Cambio": [
+                    "Se agregó soporte a más tamaños de pantalla"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "0.1.2",
+        "Dia": "11",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Implementación de Diseño",
+                "Cambio": [
+                    "Se estableció la paleta de colores",
+                    "Se agregó profunidad a las secciones",
+                    "Se agregó texto e imagenes faltantes al carrusel",
+                    "Se cambio el color de la barra de navegación"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "0.1.1",
+        "Dia": "2",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Implementación Sass",
+                "Cambio": [
+                    "Se actualizaron los archivos Css a Sass",
+                    "Se implemetó diseño responsivo"
+                ]
+            },
+            {
+                "Titulo": "Estructura Básica de Carrusel",
+                "Cambio": [
+                    "Se agregó la estructura básica del carrusel"
+                ]
+            }
+        ]
+    },
+    {
+        "Version": "0.1.0",
+        "Dia": "1",
+        "Mes": "Septiembre",
+        "Anio": "2020",
+        "Contenido": [
+            {
+                "Titulo": "Estructura Básica",
+                "Cambio": [
+                    "Estructura básica de la página",
+                    "Barra de Navegación",
+                    "Pie de página"
+                ]
+            }
+        ]
+    }
+]

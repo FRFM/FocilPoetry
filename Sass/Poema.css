@@ -1,9 +1,12 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
+  background: #E1E5E5;
   overflow-x: hidden;
+  overflow: overlay;
 }
 
 .Titulo {
@@ -32,14 +35,14 @@ i {
 
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
-  padding: 10rem;
+  overflow-y: hidden;
+  padding: 3rem;
 }
 
 @media (min-width: 550px) {
   .Estrofa {
     font-size: calc(0.9rem + 0.7vw);
-    margin: 7vw 0;
+    margin: 7vw 0vw;
   }
   .Verso {
     margin: 3vw 0;
@@ -48,7 +51,7 @@ i {
 
 @media (max-width: 550px) {
   .Estrofa {
-    margin: 13vw 0;
+    margin: 13vw 1vw;
   }
   .Verso {
     margin: 4vw 0;
@@ -57,7 +60,7 @@ i {
 
 @media (max-width: 400px) {
   .Estrofa {
-    margin: 20vw 0;
+    margin: 20vw 1.8vw;
   }
   .Verso {
     margin: 7vw 0;

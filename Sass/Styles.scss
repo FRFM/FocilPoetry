@@ -1,144 +1,168 @@
-
 //Variables
-$ColorWhite:#FFFF;
+$ColorWhite: #FFFF;
 $ColorDark: rgb(52, 58, 64);
-$PrimaryColor:#68B9F0;
-$SecondaryColor:#E1E5E5;
-$BackgroundColor1:#E1E5E5;
-$BackgroundColor2:#68B9F0;
-$ColorHeader:#AEDAF3;
+$PrimaryColor: #68B9F0;
+$SecondaryColor: #E1E5E5;
+$BackgroundColor1: #E1E5E5;
+$BackgroundColor2: #68B9F0;
+$ColorHeader: #AEDAF3;
 
-*{
-    font-family:'Krona One' ,cursive;
-    
+* {
+    font-family: 'Krona One', cursive;
+
 }
 
 //NavBar
-.navbar{
+.navbar {
     z-index: 1000;
     box-shadow: 30px 9px 80px #000000;
-    background:$ColorHeader;
+    background: $ColorHeader;
     padding-bottom: 1.4rem;
+
     .navbar-brand {
         color: $ColorDark;
-        font-size:2.4rem;
+        font-size: 2.4rem;
     }
+
     .navbar-nav .nav-link {
-        color:$ColorDark;
-        margin-left:4rem;
-        font-size:1.5rem;
+        color: $ColorDark;
+        margin-left: 4rem;
+        font-size: 1.5rem;
     }
 }
 
 //Main-Container
 
 //Footer
-.PageFooter{
+.PageFooter {
     box-shadow: 30px 9px 100px #000000;
-    background:$ColorHeader;
-    padding:0.2rem 0 0.1rem 0;
+    background: $ColorHeader;
+    padding: 0.2rem 0 0.1rem 0;
     margin-top: -4rem;
-    
+
     bottom: 0;
-	color:$ColorDark;
-	font-size:1.3rem;
+    color: $ColorDark;
+    font-size: 1.3rem;
     width: 100%;
 
-    #Quote{
-        padding-top:1rem;
+    #Quote {
+        padding-top: 1rem;
     }
 
-    #Author{
-        font-size:1.2rem;
+    #Author {
+        font-size: 1.2rem;
     }
-    #Copyright{
-        font-size:0.7rem;
-        margin-top:1rem;
+
+    #Copyright {
+        font-size: 0.7rem;
+        margin-top: 1rem;
 
 
     }
-    
+
 }
 
-.Section{
+.Section {
     z-index: 100;
     box-shadow: 10px 7px 20px #000000;
-    .Section-Title{
+
+    .Section-Title {
         font-size: calc(2rem + 1vw);
-         margin-top:1em;
-         margin-bottom: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
-    .Section-Content{
+
+    .Section-Content {
         font-size: calc(1.7rem + 1vw);
     }
-    .Primary-Section{
-        padding-top:1em;
-        padding-bottom:4em;
-        background:$PrimaryColor;   
+
+    .Primary-Section {
+        padding-top: 1em;
+        padding-bottom: 4em;
+        background: $PrimaryColor;
     }
-    .Secondary-Section{
-        background:$SecondaryColor;
-        padding-bottom:4em;   
+
+    .Secondary-Section {
+        background: $SecondaryColor;
+        padding-bottom: 4em;
     }
-    .Redirection{   
+
+    .Redirection {
         padding: 1.5rem;
-        margin:2rem 0 2rem 0;
+        margin: 2rem 0 2rem 0;
     }
 }
+
+::-webkit-scrollbar {
+    width: 0.75em;
+}
+
+/* Track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#2D378C, #63699F, #4554D9);
+    border-radius: 2em;
+    height: 0.5em;
+}
+
 
 
 //Media Queries
-@media(max-width:420px){
-    
-    .PageFooter{
-        padding:0.5rem 0 0.1rem 0;
-        font-size:0.8rem;
-        
-        #Author{
-            font-size:0.8rem;
+@media(max-width:420px) {
+
+    .PageFooter {
+        padding: 0.5rem 0 0.1rem 0;
+        font-size: 0.8rem;
+
+        #Author {
+            font-size: 0.8rem;
         }
-        #Copyright{
-            font-size:0.4rem;
+
+        #Copyright {
+            font-size: 0.4rem;
         }
     }
 }
 
-@media(max-width:403px){
-    .navbar{
+@media(max-width:403px) {
+    .navbar {
         z-index: 1000;
         box-shadow: 30px 9px 80px #000000;
-        background:$ColorHeader;
+        background: $ColorHeader;
         padding-bottom: 1.4rem;
+
         .navbar-brand {
             color: $ColorDark;
-            font-size:2rem;
+            font-size: 2rem;
         }
+
         .navbar-nav .nav-link {
-            color:$ColorDark;
-            margin-left:4rem;
-            font-size:1rem;
+            color: $ColorDark;
+            margin-left: 4rem;
+            font-size: 1rem;
         }
     }
 }
 
-@media(max-width:354px){
-    .navbar{
+@media(max-width:354px) {
+    .navbar {
         z-index: 1000;
         box-shadow: 30px 9px 80px #000000;
-        background:$ColorHeader;
+        background: $ColorHeader;
         padding-bottom: 1.4rem;
+
         .navbar-brand {
             color: $ColorDark;
-            font-size:1.8rem;
+            font-size: 1.8rem;
         }
+
         .navbar-nav .nav-link {
-            color:$ColorDark;
-            margin-left:4rem;
-            font-size:1rem;
+            color: $ColorDark;
+            margin-left: 4rem;
+            font-size: 1rem;
         }
     }
+
 }
-
-
-
-

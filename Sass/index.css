@@ -1,7 +1,12 @@
 .Main-Container {
   margin-top: 2em;
-  padding: 4rem 0;
   background: #E1E5E5;
+  padding: 0.8rem 0.5rem 4em 0.5rem;
+}
+
+.fixed-top {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 #Main-Carousel {

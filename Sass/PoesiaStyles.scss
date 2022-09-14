@@ -1,36 +1,35 @@
-
 //Variables
-$ColorWhite:#FFFF;
+$ColorWhite: #FFFF;
 $ColorDark: rgb(52, 58, 64);
-$PrimaryColor:#68B9F0;
-$SecondaryColor:#E1E5E5;
-$BackgroundColor1:#E1E5E5;
-$BackgroundColor2:#68B9F0;
-$ColorHeader:#AEDAF3;
-$Shadow: 10px 7px 20px #000000;  
+$PrimaryColor: #68B9F0;
+$SecondaryColor: #E1E5E5;
+$BackgroundColor1: #E1E5E5;
+$BackgroundColor2: #68B9F0;
+$ColorHeader: #AEDAF3;
+$Shadow: 10px 7px 20px #000000;
 
-.Main-Container{
-	margin-top:2em;
-    padding:6rem 0;
-    background: $BackgroundColor1;    
+.Main-Container {
+    margin-top: 2em;
+    padding: 1rem 0rem 6em 0rem;
+
 }
 
-.Main-Container-Declamacion{
-    background: $BackgroundColor2;    
-    margin-top:2em;
-    padding:6rem 0;
+.Main-Container-Declamacion {
+    background: $BackgroundColor2;
+    margin-top: 0.1em;
+    padding: 1rem 0rem 6em 0rem;
 }
 
-audio{
-    
-    right:0;
+audio {
+
+    right: 0;
 }
 
 
 
 
-.row{
-    margin:0;
+.row {
+    margin: 0;
     box-shadow: $Shadow;
 }
 
@@ -38,56 +37,52 @@ audio{
 
 
 
-.Poetry-Card{
-    padding:2.5vw;
-    background:$BackgroundColor2;
-    margin:2rem;
+.Poetry-Card {
+    padding: 2.5vw;
+    background: $BackgroundColor2;
+    margin: 2rem;
     align-content: center;
     text-align: center;
-    box-shadow:$Shadow;  
+    box-shadow: $Shadow;
 }
 
-.Poetry-Card-Declamacion{
-    padding:3vw;
-    background:$BackgroundColor1;
-    margin:2rem;
+.Poetry-Card-Declamacion {
+    padding: 3vw;
+    background: $BackgroundColor1;
+    margin: 2rem;
     align-content: center;
     text-align: center;
-    box-shadow:$Shadow;  
+    box-shadow: $Shadow;
 }
 
-h1{
-    
-    
+h1 {
+
+
     font-size: calc(1rem + 1vw);
-   
+
 }
 
-.Small{
+.Small {
     margin-top: 1rem;
 }
 
-.Large{
-    font-size: calc(0.7rem + 1vw);   
+.Large {
+    font-size: calc(0.7rem + 1vw);
 }
 
-.row{
+.row {
     justify-content: center;
 }
-.Poetry-Button{
-    margin-left:2vw;
-    margin-right:2vw;
+
+.Poetry-Button {
+    margin-left: 2vw;
+    margin-right: 2vw;
     margin-top: 2.5rem;
     width: 3em;
-    box-shadow:$Shadow;  
+    box-shadow: $Shadow;
     background: aliceblue;
 }
 
-pre{
-    font-size: calc(1rem + 1vw);   
+pre {
+    font-size: calc(1rem + 1vw);
 }
-
-
-
-
-
