@@ -18,8 +18,10 @@
         }
         
         public function conex($a,$b,$c,$d){
-            $con = new mysqli($a,$b,$c,$d);
-            return $con;
+
+                $con = new mysqli($a,$b,$c,$d);
+                return $con;
+          
         }
     }
 

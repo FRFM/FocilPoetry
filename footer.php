@@ -15,14 +15,19 @@ class Quotes{
 		return $Frase[$index]["Autor"];
 	}
 
+	function getFrases(){
+		$data = file_get_contents("JSON/Versos.json");
+		return json_decode($data, true);
+	}
+
 }
 
-$data = file_get_contents("JSON/Versos.json");
-$Frase = json_decode($data, true);
+$Q = new Quotes($Frase);
+$Frase = $Q->getFrases();
 
 $i = rand(0,count($Frase)-1);
 
-$Q = new Quotes($Frase);
+
 
 
 	echo '<p id = "Quote">"'.$Q->getVerso($Frase,$i).'"</p>';

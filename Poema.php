@@ -40,7 +40,7 @@
         }
         function getInf($index,$len){
             if($index == 0){
-                return count($Poemas)-1;
+                return $len-1;
             }
             return $index - 1;
         }
@@ -132,7 +132,6 @@
         }
     }
     ?>
-
 
     <?php 
 
