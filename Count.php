@@ -1,7 +1,8 @@
 <?php 
 include "conex.php";
+
 date_default_timezone_set("America/Mexico_City");
-    $sqlConsultarPoemas = $con->query("SELECT * FROM Poemas");
+    $sqlConsultarPoemas = $con->query("SELECT * FROM Contador");
 
 		while ($row = $sqlConsultarPoemas->fetch_array()) {
 	    $id = $row['Id'];

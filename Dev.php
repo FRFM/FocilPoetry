@@ -1,6 +1,8 @@
 <?php include 'header.php';?>
 
 <?php 
+
+
 $data = file_get_contents("JSON/Dev.json");
 $DevNotes = json_decode($data, true);
 
